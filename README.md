@@ -1,6 +1,6 @@
-# mediaplayer-streaming
+# mediaplayer-streaming [![Build Status](https://travis-ci.com/thoughtsunificator/mediaplayer-streaming.svg?branch=master)](https://travis-ci.com/thoughtsunificator/mediaplayer-streaming)
 
-Media player for [domodel](https://github.com/thoughtsunificator/domodel).
+Streaming component for [mediaplayer](https://github.com/thoughtsunificator/mediaplayer).
 
 ## Getting started
 
