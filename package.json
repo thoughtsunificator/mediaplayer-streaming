@@ -1,6 +1,6 @@
 {
 	"name": "@thoughtsunificator/mediaplayer-streaming",
-	"version": "1.0.10",
+	"version": "1.0.11",
 	"main": "index.js",
 	"type": "module",
 	"description": "Streaming component for mediaplayer",
