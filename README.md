@@ -19,17 +19,19 @@ import { Core }  from "domodel"
 import { Player, PlayerBinding, PlayerModel } from "@thoughtsunificator/mediaplayer-core"
 import { StreamingModel, StreamingBinding } from "@thoughtsunificator/mediaplayer-streaming"
 
-import HOTKEYS from "data/hotkeys.js"
 
 window.addEventListener("load", async function() {
 
 	const player = new Player()
+	const hotkeys = {
+		38: "some event",
+	}
 
 	Core.run(PlayerModel, {
 		parentNode: document.body,
 		binding: new PlayerBinding({
 			player,
-			hotkeys: HOTKEYS,
+			hotkeys,
 			model: StreamingModel,
 			binding: new StreamingBinding({ player })
 		})
