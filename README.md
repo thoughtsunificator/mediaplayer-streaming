@@ -16,8 +16,8 @@ Streaming component for [mediaplayer](https://github.com/thoughtsunificator/medi
 
 ```javascript
 import { Core }  from "domodel"
-import { Player, PlayerBinding, PlayerModel } from "mediaplayer-core"
-import { StreamingModel, StreamingBinding } from "mediaplayer-streaming"
+import { Player, PlayerBinding, PlayerModel } from "@thoughtsunificator/mediaplayer-core"
+import { StreamingModel, StreamingBinding } from "@thoughtsunificator/mediaplayer-streaming"
 
 import HOTKEYS from "data/hotkeys.js"
 
